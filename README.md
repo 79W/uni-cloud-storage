@@ -114,4 +114,4 @@ import UniCloudStorage from 'uni-cloud-storage'
 
 ### License📖
 
-Lexical is MIT licensed.
+Lexical is [MIT licensed](https://github.com/79E/uni-cloud-storage/blob/master/LICENSE).
