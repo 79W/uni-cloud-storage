@@ -1,0 +1,56 @@
+{
+  "name": "uni-cloud-storage",
+  "version": "0.0.1",
+  "description": "uniApp cloud storage api sdk",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "web": "export UNICLI_BUILD_TARGET=web && set UNICLI_BUILD_TARGET=web && rollup --config rollup.config.js",
+    "node": "export UNICLI_BUILD_TARGET=node && set UNICLI_BUILD_TARGET=node && rollup --config rollup.config.js",
+    "build": "npm run web && npm run node"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/79E/uni-cloud-storage.git"
+  },
+  "keywords": [
+    "uniapp",
+    "uni-app",
+    "nodejs",
+    "sdk",
+    "cdn",
+    "cloud",
+    "storage",
+    "unicloud"
+  ],
+  "author": "79E <cc@mvc.cc> (github.com/79E)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/79E/uni-cloud-storage/issues"
+  },
+  "homepage": "https://github.com/79E/uni-cloud-storage",
+  "contributors": [
+    {
+      "name": "79E",
+      "url": "https://github.com/79E"
+    }
+  ],
+  "dependencies": {
+    "axios": "^0.26.1",
+    "crypto-js": "^4.1.1",
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.1.0",
+    "@types/crypto-js": "^4.1.1",
+    "rollup": "^2.70.2",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.6.3"
+  }
+}
